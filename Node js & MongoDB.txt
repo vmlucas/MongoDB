@@ -1,0 +1,35 @@
+Cloud Computing
+Node js
+start localhost
+no diretorio ...\nodejs-Hupe\ executar  "npm run dev"
+
+Mongo DB
+
+MongoDB Atlas - MongoDB Cloud
+mongodb+srv://victor:vic1978@victormongodb-kvbw4.azure.mongodb.net/test?retryWrites=true&w=majority
+
+
+
+VictorMongoDB - Azure Cloud
+mongo "mongodb+srv://victormongodb-kvbw4.azure.mongodb.net/test"  --username victor
+senha: vic1978
+
+
+cluster0 - AWS Cloud 
+mongo "mongodb+srv://cluster0-qpzls.mongodb.net/test"  --username victor
+senha: vic1978
+
+
+
+db.Hupe.update({}, {$unset: {Column1:1,_1:1,_2:1,_3:1,_4:1,_5:1,_6:1,_7:1,_8:1,_9:1,_10:1}}, false, true);
+	
+db.employee.aggregate([{$group : {_id : "$firstName", salary_maximum : {$max : "$salary"}}}])
+
+db.Hupe.aggregate([{$group : {_id : null, Data_maximum : {$max : "$Data"}}}])
+
+{ "Medicamento" : { $regex : "AFLIBERCEPTE" } }
+
+
+Stitch
+APP NAme Hupeapp
+APP key n7FvT5YaGnEI9aHO3EXtIK4waqXDcJybUWiLdA5UEit3hApYkn39xSgLtUTUpFQs

@@ -1,0 +1,1 @@
+db.getCollection('Hupe').find({}).sort({Data: -1})
