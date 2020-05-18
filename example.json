@@ -1,0 +1,23 @@
+{
+_id":1,
+"name":{
+"first":"Dennis",
+"last":"Ritchie"
+},
+"contribs":[
+"Altran",
+"B",
+"C",
+"Unix"
+],
+"awards":[
+{
+"award":"Turing Award",
+"year":1983
+},
+{
+"award":"National medal of technology",
+"year":1999
+}
+]
+}
